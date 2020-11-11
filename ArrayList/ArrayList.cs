@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 
     namespace DataStructures
@@ -39,7 +39,7 @@
             {
                 if (list.Length > 0)
                 {
-                   _array = list;
+                   _array = list;//переделать через Array.Copy
                    Length = list.Length;
                 }
                 else
